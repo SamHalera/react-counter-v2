@@ -1,0 +1,83 @@
+:root {
+  font-family: "Kanit", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+header {
+  width: 100%;
+  padding: 20px 30px;
+  border-bottom: 1px solid lightgray;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+header span {
+  font-size: 40px;
+  color: #5c47d2;
+}
+
+h1 {
+  font-size: 25px;
+}
+h1 {
+  font-size: 25px;
+}
+main {
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.counter-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 450px;
+}
+.counter-container > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.counter-container > div > div {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.button-container {
+  width: 60px;
+  text-align: center;
+}
+.number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5c47d2;
+  border-radius: 5px;
+  padding: 15px;
+  height: 60px;
+  width: 60px;
+  color: white;
+}
+button {
+  border: none;
+  background-color: transparent;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+button.reset,
+button.add {
+  background-color: #5c47d2;
+  font-size: 18px;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 6px;
+  width: 200px;
+}
