@@ -35,6 +35,7 @@ main {
   align-items: center;
   justify-content: space-evenly;
   height: 450px;
+  gap: 50px;
 }
 .counter-container > div {
   display: flex;
