@@ -1,11 +1,11 @@
 import ButtonCustom from "./ButtonCustom";
 
-const Counter = ({ items, setItems, index }) => {
+const Counter = ({ items, setItems, index, item }) => {
   return (
     <div>
       <div>
         <div className="button-container">
-          {items[index] > 0 && (
+          {item > 0 && (
             <ButtonCustom
               items={items}
               setItems={setItems}
@@ -16,11 +16,11 @@ const Counter = ({ items, setItems, index }) => {
           )}
         </div>
         <div className="number">
-          <p>{items[index]}</p>
+          <p>{item}</p>
         </div>
 
         <div className="button-container">
-          {items[index] < 10 && (
+          {item < 10 && (
             <ButtonCustom
               items={items}
               setItems={setItems}

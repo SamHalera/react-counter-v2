@@ -28,6 +28,7 @@ function App() {
           {items.map((item, index) => {
             return (
               <Counter
+                item={item}
                 index={index}
                 items={items}
                 setItems={setItems}
